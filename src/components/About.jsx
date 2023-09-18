@@ -32,7 +32,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Descripción General</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-      Soy un experimentado desarrollador de software con sólidas habilidades en JavaScript y PHP, y una especialización destacada en el uso de frameworks como React, Node.js, Three.js, Laravel, SolidJs, Astro, Livewire y NextJs. Mi capacidad de aprendizaje rápido y mi enfoque en la colaboración estrecha con los clientes me permiten crear soluciones eficaces, escalables y orientadas al usuario para abordar desafíos del mundo real. ¡Estoy entusiasmado por la oportunidad de trabajar juntos y convertir tus ideas en realidad!
+      Soy un experimentado desarrollador de software con sólidas habilidades en JavaScript, Flutter y PHP, y una especialización destacada en el uso de frameworks como React, React Native, Flutter, Node.js, Three.js, Laravel, SolidJs, Astro, Livewire y NextJs. Mi capacidad de aprendizaje rápido y mi enfoque en la colaboración estrecha con los clientes me permiten crear soluciones eficaces, escalables y orientadas al usuario para abordar desafíos del mundo real. ¡Estoy entusiasmado por la oportunidad de trabajar juntos y convertir tus ideas en realidad!
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
