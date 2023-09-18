@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://riandi.github.io/portfolio-andres-rendon",
+  "homepage":"https://riandi1.github.io/portfolio-andres-rendon",
   "scripts": {
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
