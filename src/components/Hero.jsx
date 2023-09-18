@@ -13,9 +13,9 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hola, Soy <span className='text-[#915eff]'>Andres</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Desarrollo interfaces de usuario, aplicaciones web <br className='sm:block hidden' />  y aplicaciones móviles como desarrollador Full Stack.
+          <h1 className={`font-black text-white lg:text-[70px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2 text-white`}>Hola, Soy <span className='text-[#915eff]'>Andres</span></h1>
+          <p className={`text-[#dfd9ff] font-medium lg:text-[24px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] xl:leading-[40px] mt-2 text-white-100`}>
+            Desarrollo de interfaces de usuario, aplicaciones web <br className='sm:block hidden' />  y aplicaciones móviles como desarrollador Full Stack.
           </p>
         </div>
       </div>
