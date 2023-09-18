@@ -60,7 +60,7 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
-          enableZoom={!isMobile} // Habilitar el zoom solo en pantallas no móviles
+          enableZoom={false} // Habilitar el zoom solo en pantallas no móviles
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
