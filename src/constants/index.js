@@ -23,6 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    tecnoparque,
+    freelance,
+    urbibox,
+    aoa
   } from "../assets";
   
   export const navLinks = [
@@ -34,10 +38,10 @@ import {
       id: "work",
       title: "Experiencia",
     },
-    {
-      id: "contact",
-      title: "Contactame",
-    },
+    // {
+    //   id: "contact",
+    //   title: "Contactame",
+    // },
   ];
   
   const services = [
@@ -115,56 +119,58 @@ import {
   ];
   
   const experiences = [
+   
+    
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Desarrollador Senior y Movil",
+      company_name: "AOA Colombia",
+      icon: aoa,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Enero 2022 - Actual",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "<span class='font-bold'>Soporte y Mejora del Software Actual:</span> Contribuí al mantenimiento y mejora continua del software existente, solucionando problemas y agregando nuevas características.",
+        "<span class='font-bold'>App Móvil en React Native para Clientes:</span> Desarrollé una aplicación móvil en React Native para clientes, mejorando la accesibilidad y la experiencia del usuario.",
+        "<span class='font-bold'>Módulos de Compras:</span> Creé nuevos módulos para gestionar compras, incluyendo carritos, seguimiento de pedidos y pagos en línea.",
+        "<span class='font-bold'>Automatización de Correos y Módulos de Auditoría:</span> Implementé la automatización de correos electrónicos y desarrollé módulos para permitir auditorías por parte de los encargados de este proceso, garantizando la integridad y el rendimiento de los servicios.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Desarrollador Laravel y Movil",
+      company_name: "Urbibox",
+      icon: urbibox,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Enero 2022 - Dic 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "<span class='font-bold'>Geolocalización de Conductores:</span> Desarrollé interfaces frontend y backend para la geolocalización de conductores, mejorando la eficiencia de las entregas.",
+        "<span class='font-bold'>CRUDs y Gestión de Datos:</span> Creé operaciones CRUD para la gestión de conductores, pedidos y entregas, simplificando las operaciones diarias.",
+        "<span class='font-bold'>App Móvil en Flutter:</span> Diseñé una aplicación móvil estilo Rappi para conductores en Flutter, permitiendo la gestión de pedidos y rutas, incluso sin conexión.",
+        "<span class='font-bold'>Seguridad y Ofuscación:</span> Implementé medidas de seguridad, incluyendo la gestión de datos offline y la ofuscación del código fuente para proteger la aplicación.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Desarrollador de Microservicios",
+      company_name: "Freelancer",
+      icon: freelance,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Junio 2021 - Dic 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "<span class='font-bold'>APIs de Autenticación en Laravel:</span> Desarrollé APIs de autenticación segura con Laravel.",
+        "<span class='font-bold'>Microservicios de Productos y Categorías:</span> Creé microservicios para gestionar productos y categorías.",
+        "<span class='font-bold'>Comparación de Productos:</span> Implementé una función de comparación de productos.",
+        "<span class='font-bold'>Despliegue en Producción:</span> Lideré el despliegue de proyectos Laravel en servidores de producción para su acceso en línea.",
+      ],
+    },
+    {
+      title: "Desarrollador Junior",
+      company_name: "Tecnoparque SENA",
+      icon: tecnoparque,
+      iconBg: "#383E56",
+      date: "Junio 2021 - Dic 2021",
+      points: [
+        "<a href='https://www.rescatedesemillas.com/' target='_blank' class='underline font-bold'>Sitio Web de Semillas con WordPress:</a> Creé un sitio web de venta de semillas utilizando WordPress.",
+        "<span class='font-bold'>Tienda Virtual con Laravel y Livewire:</span> Desarrollé una tienda en línea interactiva mediante Laravel y Livewire.",
+        "<a href='https://www.milrealidades.com/' target='_blank' class='underline font-bold'>Mil Realidades - Red Social:</a> Diseñé y construí la plataforma 'Mil Realidades,' una red social basada en Laravel.",
+        "<a href='https://www.rutadeinnovacion.com/' target='_blank' class='underline font-bold'>Ruta de la Innovación:</a>  Además, trabajé en la implementación de la 'Ruta de la Innovación,' que consiste en eventos y rutas de emprendimiento también desarrollados en Laravel con Livewire.",
       ],
     },
   ];

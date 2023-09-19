@@ -29,6 +29,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import tecnoparque from "./company/sena_logo.svg"
+import freelance from './company/freelance.png'
+import urbibox from './company/urbibox.png'
+import aoa from './company/aoa.png'
 
 export {
   logo,
@@ -59,4 +63,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  tecnoparque,
+  freelance,
+  urbibox,
+  aoa
 };
