@@ -37,8 +37,8 @@ const ExperienceCard = ({ experience }) => {
         <p
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}
+          dangerouslySetInnerHTML={{ __html: experience.company_name }}
         >
-          {experience.company_name}
         </p>
       </div>
 

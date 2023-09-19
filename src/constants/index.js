@@ -123,7 +123,7 @@ import {
     
     {
       title: "Desarrollador Senior y Movil",
-      company_name: "AOA Colombia",
+      company_name: "<a href='https://aoacolombia.com/' target='_blank' class='underline font-bold'>AOA Colombia</a>",
       icon: aoa,
       iconBg: "#E6DEDD",
       date: "Enero 2022 - Actual",
@@ -136,7 +136,7 @@ import {
     },
     {
       title: "Desarrollador Laravel y Movil",
-      company_name: "Urbibox",
+      company_name: "<a href='https://urbibox.com/' target='_blank' class='underline font-bold'>Urbibox</a>",
       icon: urbibox,
       iconBg: "#383E56",
       date: "Enero 2022 - Dic 2022",
