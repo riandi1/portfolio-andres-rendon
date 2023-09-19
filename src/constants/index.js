@@ -26,7 +26,9 @@ import {
     tecnoparque,
     freelance,
     urbibox,
-    aoa
+    aoa,
+    laravel,
+    php
   } from "../assets";
   
   export const navLinks = [
@@ -109,12 +111,12 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Laravel",
+      icon: laravel,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "PHP",
+      icon: php,
     },
   ];
   
