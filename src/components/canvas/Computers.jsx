@@ -21,7 +21,7 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.5 : 0.7} // Ajusta la escala según el dispositivo
+        scale={isMobile ? 0.65 : 0.75}
         position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
@@ -33,20 +33,23 @@ const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // Función para verificar si el ancho de la ventana es menor que 768px (puedes ajustar este valor)
-    const checkIsMobile = () => {
-      setIsMobile(window.innerWidth < 768);
+    // Add a listener for changes to the screen size
+    const mediaQuery = window.matchMedia("(max-width: 500px)");
+
+    // Set the initial value of the `isMobile` state variable
+    setIsMobile(mediaQuery.matches);
+
+    // Define a callback function to handle changes to the media query
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
     };
 
-    // Verificar inicialmente si es móvil
-    checkIsMobile();
+    // Add the callback function as a listener for changes to the media query
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
 
-    // Agregar un listener para cambios en el tamaño de la ventana
-    window.addEventListener("resize", checkIsMobile);
-
-    // Limpiar el listener cuando el componente se desmonte
+    // Remove the listener when the component is unmounted
     return () => {
-      window.removeEventListener("resize", checkIsMobile);
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
   }, []);
 
@@ -55,12 +58,12 @@ const ComputersCanvas = () => {
       frameloop='demand'
       shadows
       dpr={[1, 2]}
-      camera={{ position: [isMobile ? 40 : 20, 3, 5], fov: isMobile ? 20 : 25 }}
+      camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
-          enableZoom={false} // Habilitar el zoom solo en pantallas no móviles
+          enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />

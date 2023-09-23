@@ -39,6 +39,7 @@ const ExperienceCard = ({ experience }) => {
           style={{ margin: 0 }}
           dangerouslySetInnerHTML={{ __html: experience.company_name }}
         >
+
         </p>
       </div>
 
@@ -54,17 +55,21 @@ const ExperienceCard = ({ experience }) => {
       </ul>
     </VerticalTimelineElement>
   );
-}
+};
 
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>Mi trayectoria hasta el momento</p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>Experiencia Laboral</h2>
-        </motion.div>
+      <div>
+        <p className={`${styles.sectionSubText} text-center`}>
+        Mi trayectoria hasta el momento
+        </p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>
+        Experiencia Laboral
+        </h2>
+      </div>
 
-      <div className="mt-20 flex flex-col">
+      <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
@@ -76,6 +81,6 @@ const Experience = () => {
       </div>
     </>
   );
-}
+};
 
 export default SectionWrapper(Experience, "work");
