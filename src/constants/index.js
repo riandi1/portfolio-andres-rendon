@@ -183,7 +183,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Mauricio es un desarrollador altamente competente y versátil, con experiencia en el desarrollo FullStack y conocimientos en tecnologías móviles como Flutter. Su capacidad para aprender rápidamente y adaptarse a nuevas tecnologías lo convierte en un recurso invaluable en cualquier proyecto. Además, posee excelentes habilidades de comunicación, trabaja de manera efectiva en equipo, es un solucionador de problemas meticuloso y muestra una fuerte ética de responsabilidad en su trabajo. Su creatividad y empatía complementan sus sólidas habilidades técnicas, lo que lo convierte en un profesional completo y valioso en el mundo del desarrollo de software.",
+      "Durante nuestro tiempo juntos en Tecnoparque SENA de Rionegro Antioquia, demostró una habilidad impresionante para crear sitios web de alta calidad, cumpliendo siempre con los plazos y superando nuestras expectativas. Su profundo conocimiento técnico, su disposición para aprender nuevas tecnologías y su capacidad para comunicar de manera efectiva hicieron que fuera un miembro valioso de nuestro equipo. Además, su actitud positiva y su ética de trabajo ejemplar lo convirtieron en un colega excepcional. Recomiendo encarecidamente a Andrés Mauricio Rendón para cualquier proyecto de desarrollo web y estoy seguro de que continuará teniendo un impacto positivo en cualquier empresa en la que trabaje.",
     name: "Andres Felipe",
     designation: "Software Engineer",
     company: "Sena",
@@ -199,14 +199,13 @@ const testimonials = [
   },
   {
     testimonial:
-      " Durante nuestro tiempo juntos en Tecnoparque SENA de Rionegro Antioquia, demostró una habilidad impresionante para crear sitios web de alta calidad, cumpliendo siempre con los plazos y superando nuestras expectativas. Su profundo conocimiento técnico, su disposición para aprender nuevas tecnologías y su capacidad para comunicar de manera efectiva hicieron que fuera un miembro valioso de nuestro equipo. Además, su actitud positiva y su ética de trabajo ejemplar lo convirtieron en un colega excepcional. Recomiendo encarecidamente a Andrés Mauricio Rendón para cualquier proyecto de desarrollo web y estoy seguro de que continuará teniendo un impacto positivo en cualquier empresa en la que trabaje.",
+      "Mauricio es un desarrollador altamente competente y versátil, con experiencia en el desarrollo FullStack y conocimientos en tecnologías móviles como Flutter. Su capacidad para aprender rápidamente y adaptarse a nuevas tecnologías lo convierte en un recurso invaluable en cualquier proyecto. Además, posee excelentes habilidades de comunicación, trabaja de manera efectiva en equipo, es un solucionador de problemas meticuloso y muestra una fuerte ética de responsabilidad en su trabajo. Su creatividad y empatía complementan sus sólidas habilidades técnicas, lo que lo convierte en un profesional completo y valioso en el mundo del desarrollo de software.",
     name: "Sebastian Ocampo",
     designation: "Software Engineer",
     company: "ShippyPro",
     image: sebas_ocampo,
   },
 ];
-
 const projects = [
   {
     name: "No disponible aún.",
