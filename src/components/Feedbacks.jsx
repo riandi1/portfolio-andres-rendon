@@ -14,8 +14,7 @@ const FeedbackCard = ({
   company,
   image,
 }) => (
-  <motion.div
-    variants={fadeIn("", "spring", index * 0.5, 0.75)}
+  <div
     className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
   >
     <p className='text-white font-black text-[48px]'>"</p>
@@ -40,7 +39,7 @@ const FeedbackCard = ({
         />
       </div>
     </div>
-  </motion.div>
+  </div>
 );
 
 const Feedbacks = () => {
@@ -49,10 +48,10 @@ const Feedbacks = () => {
       <div
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[320px]`}
       >
-        <motion.div variants={textVariant()}>
+        <div>
           <p className={styles.sectionSubText}>La opinión de los demás</p>
           <h2 className={styles.sectionHeadText}>Testimonios.</h2>
-        </motion.div>
+        </div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-5`}>
         {testimonials.map((testimonial, index) => (
